@@ -1,0 +1,103 @@
+.topbar a{
+    font-size: 13px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-style: normal;
+    text-decoration: none;
+}
+#sign:hover{
+    text-decoration: underline;
+}
+
+#input{
+    border-radius: 0px;
+}
+
+#sign {
+    background-color: #4285f4;
+    color: white;
+    padding: 7.5px, 15px, 7.5px, 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: #4285f4;
+    line-height: 25px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 155px;
+}
+.searchbar{
+    border-style: solid;
+    width: 460px;
+    height: 42px;
+    border-radius: 24px;
+    border-color: #e6e6e6;
+    border-width: 1.3px;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#GoogleSearch input[type="submit"]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+
+}
+.footer{
+    
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px  solid #e4e4e4;
+    /*the 4 lines of code below sends the footer bar to the bottom and sets its position*/
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+#bl{
+    float: left;
+    margin-left: 30px;
+    font-size: 13px;
+    margin: 0;
+}
+
+#bl a, #br a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+#br{
+    float: right;
+    margin-right: 30px;
+    font-size: 13px;
+}
+#imgs {
+    padding-left: 12px;
+}
+#tr {
+    float: right;
+}
+a.topbar:visited , a.footer:visited {
+    color: #6600cc;
+}
+
+
+body, a {
+    font-family: Arial, sans-serif;
+}
